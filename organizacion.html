@@ -16,32 +16,73 @@
 		<div class="full-width NavBarP-Logo"><img src="logo2.png" >Universidad Pública de Manta </div>
 		<nav class="full-width NavBarP-Nav">
 			<ul class="full-width list-unstyled">
-                <li><a href="index.html">Inicio</a></li>
+				<li><a href="index.html">Inicio</a></li>
+				<li><a href="sesionusuario.html">Planificación</a></li>
+				<li><a href="organizacion.html">Organización</a></li>
+				<li><a href="funcionesti.html">TI</a></li>
                 <li><a href="usuario.html">Dercargar archivos</a></li>
 			</ul>
 		</nav>
 		<i class="fa fa-bars visible-xs btn-menuMobile ShowMenuMobile" aria-hidden="true"></i>
-    </header>
-    <div class="organizacion">
-    <hr>
-        <h1>Organigrama de la institución</h1>
-        <img src="assets/img/organigrama11.png">
-    <hr/>
-    </div>
-    <div class="organizacion">
-    <hr>
-        <h1>Organigrama del departamento de TI</h1>
-        <img src="assets/img/organigrama22.png">
-    <hr/>
-    </div>
-    <div class="organizacion">
-    <hr>
-        <h1>Cantidad de personal requerido en el departamento de TI</h1>
-        <img src="assets/img/listado1.png">
-    <hr/>
-    </div>
+	</header>
+	<div class="organizacion">
+			<hr>
+			<label for="show">
+				<span class="titulo">Organigrama de la Institución</span>
+			</label>
+			<input type="radio" id="show" name="group">
+			
+			<input type="radio" id="hide" name="group">
+			<div id="content">
+					<label for="hide">
+							<span class="cerrar">Cerrar</span>
+						</label>
+				<img src="assets/img/organigrama111.png"><br><br>
+				<p> <strong> Descripción:</strong> El organigrama de la institución, está constituida por cuatro áreas principales, en primer lugar, está el Rector el cual se encarga de la dirección de la institución, es la cabeza pensante y la figura pública que representa a toda la institución tanto interna como externamente.
+						Después está el Consejo Universitario, que es el máximo órgano de autoridad colegiada de la Institución. La ley orgánica de la misma confiere a este órgano facultades para emitir las normas y disposiciones generales encaminadas a la mejor organización y funcionamiento de la Institución.
+						La siguiente área general es el Vicerrectorado Académico, el cual, tiene la responsabilidad de asegurar la unidad, la calidad el desarrollo armónico del proyecto académico. Es el responsable de proponer al Rector las políticas de formación de pregrado, postítulos, postgrado, de la investigación y de la carrera académica, cautelando su efectivo cumplimiento.
+						Y por último como área de mayor importancia se encuentra el Vicerrectorado Administrativo, el mismo que debe dirigir en el ámbito de su competencia y según las políticas del Consejo Universitario y las directrices del Rector y del Consejo Administrativo, la planeación, organización y control de las actividades administrativas en el nivel general de la Universidad.</p>
+			</div>      
+			<hr/>
+	</div>
+	<div class="organizacion">
+			<hr>
+			<label for="showorgaigramadeti">
+				<span class="titulo">Organigrama del departamento de TI</span>
+			</label>
+			<input type="radio" id="showorgaigramadeti" name="group">
+			
+			<input type="radio" id="hideorgaigramadeti" name="group">
+			<div id="contentorgaigramadeti">
+					<label for="hideorgaigramadeti">
+							<span class="cerrar">Cerrar</span>
+						</label>
+				<img src="assets/img/organigrama22.png"><br><br>
+				<p> <strong>Descripción:</strong> El organigrama del departamento de TI está constituido en cuatro áreas principales, en primer lugar, está la dirección conformada por el director del departamento, el cual se encarga de administrar los recursos informáticos.
+						Seguido se encuentra el Área de Infraestructura Tecnológica y Operaciones, la cual se encarga de la parte operacional del centro informático y de la infraestructura incluidos sus servicios, los mismos que se usan en toda la institución.
+						Por su parte, el Área de Desarrollo y Proyectos Tecnológicos se encarga de diseñar, ejecutar y gestionar todo el software que se usa en las actividades de la empresa.
+						Por último, está el área de Soporte a Usuarios y Mantenimiento Técnico, dentro de esta área se da seguimiento a los problemas que puedan presentar usuarios tanto en la parte lógica, es decir, todo el software de ofimática, y la parte física, el hardware como computadoras, periféricos, etc.</p>
+			</div>      
+			<hr/>
+	</div>
+	<div class="organizacion">
+			<hr>
+			<label for="showpersoal">
+				<span class="titulo">Cantidad de personal requerido en el departamento de TI</span>
+			</label>
+			<input type="radio" id="showpersoal" name="group">
+			
+			<input type="radio" id="hidepersoal" name="group">
+			<div id="contentpersoal">
+					<label for="hidepersoal">
+							<span class="cerrar">Cerrar</span>
+						</label>
+				<img src="assets/img/listado1.png">
+			</div>      
+			<hr/>
+	</div>
     <div class="archivo">
-            <a href="assets/docs/TA2-ORGANIZACION (1).pdf" target="_blank">Descargar archivo adjunto</a>
+            <a href="assets/docs/TA2-ORGANIZACION (2).pdf" target="_blank">Descargar archivo adjunto</a>
     </div>
     <footer class="footer-distributed">
 

@@ -172,3 +172,337 @@ label > input {
     color: #000;
     font-family: 'Laila' serif;
 }
+
+#show,#hide {
+	display:none;
+}
+div#content {
+	display:none;
+  padding:10px;
+  width:100%;
+  
+}
+input#show:checked ~ div#content {
+	display:block;
+}
+input#hide:checked ~ div#content {
+	display:none;
+}
+.titulo{
+  display: block;
+  font-size: 3.1em;
+  line-height: 1.45em;
+  font-family: 'Laila', serif;
+  text-align: center;
+  font-weight: bold;
+  color: #000;
+  text-shadow: 1px 1px 0 #fff;
+}
+.titulo:hover{
+  cursor:pointer;
+  TEXT-DECORATION: underline;
+}
+.cerrar:hover{
+  cursor:pointer;
+  TEXT-DECORATION: underline; 
+}
+#showorgaigramadeti,#hideorgaigramadeti {
+	display:none;
+}
+div#contentorgaigramadeti {
+	display:none;
+  padding:10px;
+  width:100%;
+}
+input#showorgaigramadeti:checked ~ div#contentorgaigramadeti {
+	display:block;
+}
+input#hideorgaigramadeti:checked ~ div#contentorgaigramadeti {
+	display:none;
+}
+#showpersoal,#hidepersoal {
+	display:none;
+}
+div#contentpersoal {
+	display:none;
+  padding:10px;
+  width:100%;
+}
+input#showpersoal:checked ~ div#contentpersoal {
+	display:block;
+}
+input#hidepersoal:checked ~ div#contentpersoal {
+	display:none;
+}
+
+
+
+//FuncionesTI
+#showgestioinfortec,#hidegestioinfortec {
+	display:none;
+}
+div#contentgestioinfortec {
+	display:none;
+  width:100%;
+}
+input#showgestioinfortec:checked ~ div#contentgestioinfortec {
+	display:block;
+}
+input#hidegestioinfortec:checked ~ div#contentgestioinfortec{
+	display:none;
+}
+
+#showsecretatia,#hidesecretatia {
+	display:none;
+}
+div#contentsecretatia {
+	display:none;
+  padding:10px;
+  width:100%;
+}
+input#showsecretatia:checked ~ div#contentsecretatia {
+	display:block;
+}
+input#hidesecretatia:checked ~ div#contentsecretatia{
+	display:none;
+}
+
+#showserviciosgenerales,#hideserviciosgenerales {
+	display:none;
+}
+div#contentserviciosgenerales {
+	display:none;
+  padding:10px;
+  width:100%;
+}
+input#showserviciosgenerales:checked ~ div#contentserviciosgenerales {
+	display:block;
+}
+input#hideserviciosgenerales:checked ~ div#contentserviciosgenerales {
+	display:none;
+}
+
+#showareainfraestructura,#hideareainfraestructura {
+	display:none;
+}
+div#contentareainfraestructura {
+	display:none;
+  padding:10px;
+  width:100%;
+}
+input#showareainfraestructura:checked ~ div#contentareainfraestructura {
+	display:block;
+}
+input#hideareainfraestructura:checked ~ div#contentareainfraestructura {
+	display:none;
+}
+
+#showadministracionredes,#hideadministracionredes {
+	display:none;
+}
+div#contentadministracionredes {
+	display:none;
+  padding:10px;
+  width:100%;
+}
+input#showadministracionredes:checked ~ div#contentadministracionredes {
+	display:block;
+}
+input#hideadministracionredes:checked ~ div#contentadministracionredes {
+	display:none;
+}
+
+#showadministracionservidores,#hideadministracionservidores{
+	display:none;
+}
+div#contentadministracionservidores {
+	display:none;
+  padding:10px;
+  width:100%;
+}
+input#showadministracionservidores:checked ~ div#contentadministracionservidores{
+	display:block;
+}
+input#hideadministracionservidores:checked ~ div#contentadministracionservidores {
+	display:none;
+}
+
+#showadminoperacionbd,#hideadminoperacionbd {
+	display:none;
+}
+div#contentadminoperacionbd {
+	display:none;
+  padding:10px;
+  width:100%;
+}
+input#showadminoperacionbd:checked ~ div#contentadminoperacionbd{
+	display:block;
+}
+input#hideadminoperacionbd:checked ~ div#contentadminoperacionbd {
+	display:none;
+}
+
+#showadminseguridad,#hideadminseguridad {
+	display:none;
+}
+div#contentadminseguridad{
+	display:none;
+  padding:10px;
+  width:100%;
+}
+input#showadminseguridad:checked ~ div#contentadminseguridad {
+	display:block;
+}
+input#hideadminseguridad:checked ~ div#contentadminseguridad{
+	display:none;
+}
+
+#showadminplataformas,#hideadminplataformas {
+	display:none;
+}
+div#contentadminplataformas{
+	display:none;
+  padding:10px;
+  width:100%;
+}
+input#showadminplataformas:checked ~ div#contentadminplataformas{
+	display:block;
+}
+input#hideadminplataformas:checked ~ div#contentadminplataformas{
+	display:none;
+}
+
+#showgestionenergetica,#hidegestionenergetica {
+	display:none;
+}
+div#contentgestionenergetica{
+	display:none;
+  padding:10px;
+  width:100%;
+}
+input#showgestionenergetica:checked ~ div#contentgestionenergetica {
+	display:block;
+}
+input#hidegestionenergetica:checked ~ div#contentgestionenergetica{
+	display:none;
+}
+
+#showareadesarrollopro,#hideareadesarrollopro {
+	display:none;
+}
+div#contentareadesarrollopro{
+	display:none;
+  padding:10px;
+  width:100%;
+}
+input#showareadesarrollopro:checked ~ div#contentareadesarrollopro{
+	display:block;
+}
+input#hideareadesarrollopro:checked ~ div#contentareadesarrollopro{
+	display:none;
+}
+
+#showdesarrolloappsmantenimiento,#hidedesarrolloappsmantenimiento {
+	display:none;
+}
+div#contentdesarrolloappsmantenimiento{
+	display:none;
+  padding:10px;
+  width:100%;
+}
+input#showdesarrolloappsmantenimiento:checked ~ div#contentdesarrolloappsmantenimiento{
+	display:block;
+}
+input#hidedesarrolloappsmantenimiento:checked ~ div#contentdesarrolloappsmantenimiento{
+	display:none;
+}
+
+#showdesarrolloprotecnologocicos,#hidedesarrolloprotecnologocicos{
+	display:none;
+}
+div#contentdesarrolloprotecnologocicos {
+	display:none;
+  padding:10px;
+  width:100%;
+}
+input#showdesarrolloprotecnologocicos:checked ~ div#contentdesarrolloprotecnologocicos {
+	display:block;
+}
+input#hidedesarrolloprotecnologocicos:checked ~ div#contentdesarrolloprotecnologocicos{
+	display:none;
+}
+
+#showpruebascalidad,#hidepruebascalidad {
+	display:none;
+}
+div#contentpruebascalidad {
+	display:none;
+  padding:10px;
+  width:100%;
+}
+input#showpruebascalidad:checked ~ div#contentpruebascalidad {
+	display:block;
+}
+input#hidepruebascalidad:checked ~ div#contentpruebascalidad{
+	display:none;
+}
+
+#showareasoporteusuario,#hideareasoporteusuario{
+	display:none;
+}
+div#contentareasoporteusuario{
+	display:none;
+  padding:10px;
+  width:100%;
+}
+input#showareasoporteusuario:checked ~ div#contentareasoporteusuario{
+	display:block;
+}
+input#hideareasoporteusuario:checked ~ div#contentareasoporteusuario{
+	display:none;
+}
+
+#showsoporteusuarios,#hidesoporteusuarios {
+	display:none;
+}
+div#contentsoporteusuarios {
+	display:none;
+  padding:10px;
+  width:100%;
+}
+input#showsoporteusuarios:checked ~ div#contentsoporteusuarios{
+	display:block;
+}
+input#hidesoporteusuarios:checked ~ div#contentsoporteusuarios{
+	display:none;
+}
+
+#showdespliegueserviciotecnologicos,#hidedespliegueserviciotecnologicos {
+	display:none;
+}
+div#contentdespliegueserviciotecnologicos {
+	display:none;
+  padding:10px;
+  width:100%;
+}
+input#showdespliegueserviciotecnologicos:checked ~ div#contentdespliegueserviciotecnologicos{
+	display:block;
+}
+input#hidedespliegueserviciotecnologicos:checked ~ div#contentdespliegueserviciotecnologicos{
+	display:none;
+}
+
+#showgestiontecnica,#hidegestiontecnica{
+	display:none;
+}
+div#contentgestiontecnica{
+	display:none;
+  padding:10px;
+  width:100%;
+}
+input#showgestiontecnica:checked ~ div#contentgestiontecnica{
+	display:block;
+}
+input#hidegestiontecnica:checked ~ div#contentgestiontecnica{
+	display:none;
+}

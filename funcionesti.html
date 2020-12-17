@@ -16,7 +16,10 @@
 		<div class="full-width NavBarP-Logo"><img src="logo2.png" >Universidad Pública de Manta </div>
 		<nav class="full-width NavBarP-Nav">
 			<ul class="full-width list-unstyled">
-                <li><a href="index.html">Inicio</a></li>
+				<li><a href="index.html">Inicio</a></li>
+				<li><a href="sesionusuario.html">Planificación</a></li>
+				<li><a href="organizacion.html">Organización</a></li>
+				<li><a href="funcionesti.html">TI</a></li>
                 <li><a href="usuario.html">Dercargar archivos</a></li>
 			</ul>
 		</nav>
@@ -25,116 +28,292 @@
     <div class="organizacion">
     <hr>
         <h1>Áreas y funciones del departamento de TI</h1>
-        <img src="assets/img/direccion.png">
     <hr/>
-    </div>
-    <div class="organizacion">
-    <hr>
-        <h1></h1>
-        <img src="assets/img/gestioninformacion.png">
-    <hr/>
-    </div>
-    <div class="organizacion">
-    <hr>
-        <h1></h1>
-        <img src="assets/img/secretaria.png">
-    <hr/>
-	</div>
-	<div class="organizacion">
-		<hr>
-			<h1></h1>
-			<img src="assets/img/serviciogenerales.png">
-		<hr/>
-	</div>
-	<div class="organizacion">
-		<hr>
-			<h1></h1>
-			<img src="assets/img/areainfraestructura.png">
-		<hr/>
-	</div>
-	<div class="organizacion">
-		<hr>
-			<h1></h1>
-			<img src="assets/img/administracionredes.png">
-		<hr/>
-	</div>
-	<div class="organizacion">
-		<hr>
-			<h1></h1>
-			<img src="assets/img/administracionservidores.png">
-		<hr/>
 	</div>
 	<div class="organizacion">
 			<hr>
-				<h1></h1>
+			<label for="show">
+				<span class="titulo">1.1 Dirección</span>
+			</label>
+			<input type="radio" id="show" name="group">			
+			<input type="radio" id="hide" name="group">
+			<div id="content">
+					<label for="hide">
+							<span class="cerrar">Cerrar</span>
+						</label>
+				<img src="assets/img/direccion.png">
+			</div>      
+			<hr/>
+	</div>
+	<div class="organizacion">
+			<hr>
+			<label for="showgestioinfortec">
+				<span class="titulo">1.1.1 Gestión de la Información y Riesgo Tecnológico</span>
+			</label>
+			<input type="radio" id="showgestioinfortec" name="group">			
+			<input type="radio" id="hidegestioinfortec" name="group">
+			<div id="contentgestioinfortec">
+					<label for="hidegestioinfortec">
+							<span class="cerrar">Cerrar</span>
+						</label>
+				<img src="assets/img/gestioninformacion.png">
+			</div>      
+			<hr/>
+	</div>
+    <div class="organizacion">
+			<hr>
+			<label for="showsecretatia">
+				<span class="titulo">1.1.2 Secretaría</span>
+			</label>
+			<input type="radio" id="showsecretatia" name="group">			
+			<input type="radio" id="hidesecretatia" name="group">
+			<div id="contentsecretatia">
+					<label for="hidesecretatia">
+							<span class="cerrar">Cerrar</span>
+						</label>
+				<img src="assets/img/secretaria.png">
+			</div>      
+			<hr/>
+	</div>
+	<div class="organizacion">
+			<hr>
+			<label for="showserviciosgenerales">
+				<span class="titulo">1.1.3 Servicios Generales</span>
+			</label>
+			<input type="radio" id="showserviciosgenerales" name="group">			
+			<input type="radio" id="hideserviciosgenerales" name="group">
+			<div id="contentserviciosgenerales">
+					<label for="hideserviciosgenerales">
+							<span class="cerrar">Cerrar</span>
+						</label>
+				<img src="assets/img/serviciogenerales.png">
+			</div>      
+			<hr/>
+	</div>
+	<div class="organizacion">
+			<hr>
+			<label for="showareainfraestructura">
+				<span class="titulo">1.2 Área de Infraestructura Tecnológica y operaciones</span>
+			</label>
+			<input type="radio" id="showareainfraestructura" name="group">
+			<input type="radio" id="hideareainfraestructura" name="group">
+			<div id="contentareainfraestructura">
+					<label for="hideareainfraestructura">
+							<span class="cerrar">Cerrar</span>
+						</label>
+				<img src="assets/img/areainfraestructura.png">
+			</div>      
+			<hr/>
+	</div>
+	<div class="organizacion">
+			<hr>
+			<label for="showadministracionredes">
+				<span class="titulo">1.2.1 Administración de Redes y Telecomunicaciones</span>
+			</label>
+			<input type="radio" id="showadministracionredes" name="group">			
+			<input type="radio" id="hideadministracionredes" name="group">
+			<div id="contentadministracionredes">
+					<label for="hideadministracionredes">
+							<span class="cerrar">Cerrar</span>
+						</label>
+				<img src="assets/img/administracionredes.png">
+			</div>      
+			<hr/>
+	</div>
+	<div class="organizacion">
+			<hr>
+			<label for="showadministracionservidores">
+				<span class="titulo">1.2.2 Administración de Servidores</span>
+			</label>
+			<input type="radio" id="showadministracionservidores" name="group">			
+			<input type="radio" id="hideadministracionservidores" name="group">
+			<div id="contentadministracionservidores">
+					<label for="hideadministracionservidores">
+							<span class="cerrar">Cerrar</span>
+						</label>
+				<img src="assets/img/administracionservidores.png">
+			</div>      
+			<hr/>
+	</div>
+	<div class="organizacion">
+			<hr>
+			<label for="showadminoperacionbd">
+				<span class="titulo">1.2.3 Administración de Operaciones y DBA</span>
+			</label>
+			<input type="radio" id="showadminoperacionbd" name="group">
+			<input type="radio" id="hideadminoperacionbd" name="group">
+			<div id="contentadminoperacionbd">
+					<label for="hideadminoperacionbd">
+							<span class="cerrar">Cerrar</span>
+						</label>
 				<img src="assets/img/adminoperacionbd.png">
+			</div>      
 			<hr/>
 	</div>
 	<div class="organizacion">
 			<hr>
-				<h1></h1>
+			<label for="showadminseguridad">
+				<span class="titulo">1.2.4 Administración de Seguridad Informática</span>
+			</label>
+			<input type="radio" id="showadminseguridad" name="group">
+			<input type="radio" id="hideadminseguridad" name="group">
+			<div id="contentadminseguridad">
+					<label for="hideadminseguridad">
+							<span class="cerrar">Cerrar</span>
+						</label>
 				<img src="assets/img/adminseguridad.png">
+			</div>      
 			<hr/>
 	</div>
 	<div class="organizacion">
 			<hr>
-				<h1></h1>
+			<label for="showadminplataformas">
+				<span class="titulo">1.2.5 Administración de Plataformas y Servicios Tecnológicos</span>
+			</label>
+			<input type="radio" id="showadminplataformas" name="group">
+			<input type="radio" id="hideadminplataformas" name="group">
+			<div id="contentadminplataformas">
+					<label for="hideadminplataformas">
+							<span class="cerrar">Cerrar</span>
+						</label>
 				<img src="assets/img/adminplataformas.png">
+			</div>      
 			<hr/>
 	</div>
 	<div class="organizacion">
-		<hr>
-			<h1></h1>
-			<img src="assets/img/gestionenergetica.png">
-		<hr/>
-	</div>
-	<div class="organizacion">
-		<hr>
-			<h1></h1>
-			<img src="assets/img/areadesarrollopro.png">
-		<hr/>
-	</div>
-	<div class="organizacion">
-		<hr>
-			<h1></h1>
-			<img src="assets/img/desarrolloappsmantenimiento.png">
-		<hr/>
-	</div>
-	<div class="organizacion">
-		<hr>
-			<h1></h1>
-			<img src="assets/img/desarrolloprotecnologocicos.png">
-		<hr/>
+			<hr>
+			<label for="showgestionenergetica">
+				<span class="titulo">1.2.6 Gestión Energética</span>
+			</label>
+			<input type="radio" id="showgestionenergetica" name="group">
+			<input type="radio" id="hidegestionenergetica" name="group">
+			<div id="contentgestionenergetica">
+					<label for="hidegestionenergetica">
+							<span class="cerrar">Cerrar</span>
+						</label>
+				<img src="assets/img/gestionenergetica.png">
+			</div>      
+			<hr/>
 	</div>
 	<div class="organizacion">
 			<hr>
-				<h1></h1>
+			<label for="showareadesarrollopro">
+				<span class="titulo">1.3 Área de Desarrollo y Proyectos Tecnológicos</span>
+			</label>
+			<input type="radio" id="showareadesarrollopro" name="group">
+			<input type="radio" id="hideareadesarrollopro" name="group">
+			<div id="contentareadesarrollopro">
+					<label for="hideareadesarrollopro">
+							<span class="cerrar">Cerrar</span>
+						</label>
+				<img src="assets/img/areadesarrollopro.png">
+			</div>      
+			<hr/>
+	</div>
+	<div class="organizacion">
+			<hr>
+			<label for="showdesarrolloappsmantenimiento">
+				<span class="titulo">1.3.1 Desarrollo y Mantenimiento de Aplicaciones</span>
+			</label>
+			<input type="radio" id="showdesarrolloappsmantenimiento" name="group">
+			<input type="radio" id="hidedesarrolloappsmantenimiento" name="group">
+			<div id="contentdesarrolloappsmantenimiento">
+					<label for="hidedesarrolloappsmantenimiento">
+							<span class="cerrar">Cerrar</span>
+						</label>
+				<img src="assets/img/desarrolloappsmantenimiento.png">
+			</div>      
+			<hr/>
+	</div>
+	<div class="organizacion">
+			<hr>
+			<label for="showdesarrolloprotecnologocicos">
+				<span class="titulo">1.3.2 Desarrollo de Proyectos Tecnológicos</span>
+			</label>
+			<input type="radio" id="showdesarrolloprotecnologocicos" name="group">
+			<input type="radio" id="hidedesarrolloprotecnologocicos" name="group">
+			<div id="contentdesarrolloprotecnologocicos">
+					<label for="hidedesarrolloprotecnologocicos">
+							<span class="cerrar">Cerrar</span>
+						</label>
+				<img src="assets/img/desarrolloprotecnologocicos.png">
+			</div>      
+			<hr/>
+	</div>
+	<div class="organizacion">
+			<hr>
+			<label for="showpruebascalidad">
+				<span class="titulo">1.3.3 Pruebas y Aseguramiento de la Calidad</span>
+			</label>
+			<input type="radio" id="showpruebascalidad" name="group">
+			<input type="radio" id="hidepruebascalidad" name="group">
+			<div id="contentpruebascalidad">
+					<label for="hidepruebascalidad">
+							<span class="cerrar">Cerrar</span>
+						</label>
 				<img src="assets/img/pruebascalidad.png">
+			</div>      
 			<hr/>
 	</div>
 	<div class="organizacion">
 			<hr>
-				<h1></h1>
+			<label for="showareasoporteusuario">
+				<span class="titulo">1.4 Área de Soporte a Usuarios y Mantenimiento Técnico</span>
+			</label>
+			<input type="radio" id="showareasoporteusuario" name="group">
+			<input type="radio" id="hideareasoporteusuario" name="group">
+			<div id="contentareasoporteusuario">
+					<label for="hideareasoporteusuario">
+							<span class="cerrar">Cerrar</span>
+						</label>
 				<img src="assets/img/areasoporteusuario.png">
+			</div>      
 			<hr/>
 	</div>
 	<div class="organizacion">
 			<hr>
-				<h1></h1>
+			<label for="showsoporteusuarios">
+				<span class="titulo">1.4.1 Soporte a Usuarios</span>
+			</label>
+			<input type="radio" id="showsoporteusuarios" name="group">
+			<input type="radio" id="hidesoporteusuarios" name="group">
+			<div id="contentsoporteusuarios">
+					<label for="hidesoporteusuarios">
+							<span class="cerrar">Cerrar</span>
+						</label>
 				<img src="assets/img/soporteusuarios.png">
+			</div>      
 			<hr/>
 	</div>
 	<div class="organizacion">
-		<hr>
-			<h1></h1>
-			<img src="assets/img/despliegueserviciotecnologicos.png">
-		<hr/>
+			<hr>
+			<label for="showdespliegueserviciotecnologicos">
+				<span class="titulo">1.4.2 Despliegue de Servicios Tecnológicos</span>
+			</label>
+			<input type="radio" id="showdespliegueserviciotecnologicos" name="group">
+			<input type="radio" id="hidedespliegueserviciotecnologicos" name="group">
+			<div id="contentdespliegueserviciotecnologicos">
+					<label for="hidedespliegueserviciotecnologicos">
+							<span class="cerrar">Cerrar</span>
+						</label>
+				<img src="assets/img/despliegueserviciotecnologicos.png">
+			</div>      
+			<hr/>
 	</div>
 	<div class="organizacion">
-		<hr>
-			<h1></h1>
-			<img src="assets/img/gestiontecnica.png">
-		<hr/>
+			<hr>
+			<label for="showgestiontecnica">
+				<span class="titulo">1.4.3 Gestión Técnica y Mantenimiento de Equipos</span>
+			</label>
+			<input type="radio" id="showgestiontecnica" name="group">
+			<input type="radio" id="hidegestiontecnica" name="group">
+			<div id="contentgestiontecnica">
+					<label for="hidegestiontecnica">
+							<span class="cerrar">Cerrar</span>
+						</label>
+				<img src="assets/img/gestiontecnica.png">
+			</div>      
+			<hr/>
 	</div>
     <div class="archivo">
             <a href="assets/docs/TA3-FUNCIONES.pdf" target="_blank">Descargar archivo adjunto</a>

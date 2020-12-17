@@ -14,6 +14,10 @@
   padding-left: 70px;
   padding-right: 70px;
 }
+.mision img {
+  width: 100%;
+  height: 100%;
+}
 .mision h1{
   color: #000;
   font-family: 'Cormorant Garamond';
@@ -167,4 +171,79 @@ label > input {
 .citas-a a{
     color: #000;
     font-family: 'Laila' serif;
+}
+#show,#hide {
+	display:none;
+}
+div#content {
+	display:none;
+  padding:10px;
+  width:100%;
+  
+}
+input#show:checked ~ div#content {
+	display:block;
+}
+input#hide:checked ~ div#content {
+	display:none;
+}
+.titulo{
+  display: block;
+  font-size: 3.1em;
+  line-height: 1.45em;
+  font-family: 'Laila', serif;
+  text-align: center;
+  font-weight: bold;
+  color: #000;
+  text-shadow: 1px 1px 0 #fff;
+}
+.titulo:hover{
+  cursor:pointer;
+  TEXT-DECORATION: underline;
+}
+.cerrar:hover{
+  cursor:pointer;
+  TEXT-DECORATION: underline; 
+}
+#showvision,#hidevision {
+	display:none;
+}
+div#contentvision {
+	display:none;
+  padding:10px;
+  width:100%;
+}
+input#showvision:checked ~ div#contentvision {
+	display:block;
+}
+input#hidevision:checked ~ div#contentvision {
+	display:none;
+}
+#showobjeestrategicos,#hideobjeestrategicos {
+	display:none;
+}
+div#contentobjeestrategicos {
+	display:none;
+  padding:10px;
+  width:100%;
+}
+input#showobjeestrategicos:checked ~ div#contentobjeestrategicos {
+	display:block;
+}
+input#hideobjeestrategicos:checked ~ div#contentobjeestrategicos {
+	display:none;
+}
+#showpricnipiosyvalores,#hidepricnipiosyvalores {
+	display:none;
+}
+div#contentpricnipiosyvalores {
+	display:none;
+  padding:10px;
+  width:100%;
+}
+input#showpricnipiosyvalores:checked ~ div#contentpricnipiosyvalores {
+	display:block;
+}
+input#hidepricnipiosyvalores:checked ~ div#contentpricnipiosyvalores {
+	display:none;
 }
