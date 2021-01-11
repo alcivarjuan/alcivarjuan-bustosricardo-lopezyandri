@@ -247,3 +247,7 @@ input#showpricnipiosyvalores:checked ~ div#contentpricnipiosyvalores {
 input#hidepricnipiosyvalores:checked ~ div#contentpricnipiosyvalores {
 	display:none;
 }
+.mision span{
+  color:blue;
+  font-family: cursive;
+}
