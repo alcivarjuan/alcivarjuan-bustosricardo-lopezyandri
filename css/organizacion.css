@@ -511,6 +511,6 @@ input#hidegestiontecnica:checked ~ div#contentgestiontecnica{
   color:rgba(23, 26, 201, 0.863);
 }
 .organizacion h1{
-  color: blue;
-  font-family: cursive;
+  font-family: italic;
+  font-style: italic;
 }

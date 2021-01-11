@@ -249,5 +249,5 @@ input#hidepricnipiosyvalores:checked ~ div#contentpricnipiosyvalores {
 }
 .mision span{
   color:blue;
-  font-family: cursive;
+  font-style: italic;
 }
