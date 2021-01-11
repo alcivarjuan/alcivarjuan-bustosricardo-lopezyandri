@@ -512,5 +512,5 @@ input#hidegestiontecnica:checked ~ div#contentgestiontecnica{
 }
 .organizacion h1{
   font-family: italic;
-  font-style: italic;
+  font-style: italic; 
 }
