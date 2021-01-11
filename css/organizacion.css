@@ -506,3 +506,8 @@ input#showgestiontecnica:checked ~ div#contentgestiontecnica{
 input#hidegestiontecnica:checked ~ div#contentgestiontecnica{
 	display:none;
 }
+
+.organizacion span{
+  color:rgba(23, 26, 201, 0.863);
+  font-family: cursive;
+}
