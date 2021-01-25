@@ -1,4 +1,8 @@
 
+span{
+  padding-left: 300px;
+  font-size: 18px;
+}
 .archivo{
   margin: 20px;
 }
@@ -77,10 +81,27 @@ em, i {
 
 h1 {
   display: block;
-  font-size: 3.1em;
-  line-height: 1.45em;
+  font-size: 28px;
   font-family: 'Laila', serif;
+  font-weight: bold;
+  color: #000;
+  text-shadow: 1px 1px 0 #fff;
+}
+h2 {
+  display: block;
+  font-size: 23px;
+  padding-left: 200px;
+  font-family: 'Laila', serif;
+  font-weight: bold;
+  color: #000;
+  text-shadow: 1px 1px 0 #fff;
+}
+h3 {
+  display: block;
+  font-size: 20px;
   text-align: center;
+  padding-left: 200px;
+  font-family: 'Laila', serif;
   font-weight: bold;
   color: #000;
   text-shadow: 1px 1px 0 #fff;
@@ -95,7 +116,6 @@ form {
   border-radius: 5px;
   font-size: 0;
 }
-
 form > div > label {
   display: block;
   padding: 20px 20px 10px;
@@ -117,7 +137,6 @@ form > div.switch > label {
 form > div > .col-4 {
   height: 86px;
 }
-
 label > input {
   display: inline-block;
   position: relative;
@@ -188,15 +207,61 @@ input#show:checked ~ div#content {
 input#hide:checked ~ div#content {
 	display:none;
 }
-.titulo{
-  display: block;
-  font-size: 3.1em;
-  line-height: 1.45em;
-  font-family: 'Laila', serif;
-  text-align: center;
-  font-weight: bold;
-  color: #000;
-  text-shadow: 1px 1px 0 #fff;
+.titulo:hover{
+  cursor:pointer;
+  TEXT-DECORATION: underline;
+}
+.cerrar:hover{
+  cursor:pointer;
+  TEXT-DECORATION: underline; 
+}
+#showdireccion,#hidedireccion {
+	display:none;
+}
+div#contentdireccion {
+	display:none;
+  padding:10px;
+  width:100%;
+  
+}
+#show1,#hide1 {
+	display:none;
+}
+div#content1 {
+	display:none;
+  padding:10px;
+  width:100%;
+  
+}
+input#show1:checked ~ div#content1 {
+	display:block;
+}
+input#hide1:checked ~ div#content1 {
+	display:none;
+}
+.titulo:hover{
+  cursor:pointer;
+  TEXT-DECORATION: underline;
+}
+.cerrar:hover{
+  cursor:pointer;
+  TEXT-DECORATION: underline; 
+}
+
+#showdireccion,#hidedireccion {
+	display:none;
+}
+div#contentdireccion {
+	display:none;
+  padding:10px;
+  width:100%;
+  
+}
+input#showdireccion:checked ~ div#contentdireccion {
+	display:block;
+}
+input#hidedireccion:checked ~ div#contentdireccion {
+	display:none;
 }
 .titulo:hover{
   cursor:pointer;
@@ -234,7 +299,20 @@ input#showpersoal:checked ~ div#contentpersoal {
 input#hidepersoal:checked ~ div#contentpersoal {
 	display:none;
 }
-
+#showpersoal1,#hidepersoal1 {
+	display:none;
+}
+div#contentpersoal1 {
+	display:none;
+  padding:10px;
+  width:100%;
+}
+input#showpersoal1:checked ~ div#contentpersoal1 {
+	display:block;
+}
+input#hidepersoal1:checked ~ div#contentpersoal1 {
+	display:none;
+}
 
 
 //FuncionesTI
@@ -509,8 +587,276 @@ input#hidegestiontecnica:checked ~ div#contentgestiontecnica{
 
 .organizacion span{
   color:rgba(23, 26, 201, 0.863);
+  text-decoration-line: underline;
 }
-.organizacion h1{
-  font-family: italic;
-  font-style: italic; 
+
+
+// Perfiles TI 
+#showgestioinfortec1,#hidegestioinfortec1 {
+	display:none;
+}
+div#contentgestioinfortec1 {
+	display:none;
+  width:100%;
+}
+input#showgestioinfortec1:checked ~ div#contentgestioinfortec1 {
+	display:block;
+}
+input#hidegestioinfortec1:checked ~ div#contentgestioinfortec1{
+	display:none;
+}
+
+#showsecretatia1,#hidesecretatia1 {
+	display:none;
+}
+div#contentsecretatia1 {
+	display:none;
+  padding:10px;
+  width:100%;
+}
+input#showsecretatia1:checked ~ div#contentsecretatia1 {
+	display:block;
+}
+input#hidesecretatia1:checked ~ div#contentsecretatia1{
+	display:none;
+}
+
+#showserviciosgenerales1,#hideserviciosgenerales1 {
+	display:none;
+}
+div#contentserviciosgenerales1 {
+	display:none;
+  padding:10px;
+  width:100%;
+}
+input#showserviciosgenerales1:checked ~ div#contentserviciosgenerales1 {
+	display:block;
+}
+input#hideserviciosgenerales1:checked ~ div#contentserviciosgenerales1 {
+	display:none;
+}
+
+#showareainfraestructura1,#hideareainfraestructura1 {
+	display:none;
+}
+div#contentareainfraestructura1 {
+	display:none;
+  padding:10px;
+  width:100%;
+}
+input#showareainfraestructura1:checked ~ div#contentareainfraestructura1 {
+	display:block;
+}
+input#hideareainfraestructura1:checked ~ div#contentareainfraestructura1 {
+	display:none;
+}
+
+#showadministracionredes1,#hideadministracionredes1 {
+	display:none;
+}
+div#contentadministracionredes1 {
+	display:none;
+  padding:10px;
+  width:100%;
+}
+input#showadministracionredes1:checked ~ div#contentadministracionredes1 {
+	display:block;
+}
+input#hideadministracionredes1:checked ~ div#contentadministracionredes1 {
+	display:none;
+}
+
+#showadministracionservidores1,#hideadministracionservidores1{
+	display:none;
+}
+div#contentadministracionservidores1 {
+	display:none;
+  padding:10px;
+  width:100%;
+}
+input#showadministracionservidores1:checked ~ div#contentadministracionservidores1{
+	display:block;
+}
+input#hideadministracionservidores1:checked ~ div#contentadministracionservidores1 {
+	display:none;
+}
+
+#showadminoperacionbd1,#hideadminoperacionbd1 {
+	display:none;
+}
+div#contentadminoperacionbd1 {
+	display:none;
+  padding:10px;
+  width:100%;
+}
+input#showadminoperacionbd1:checked ~ div#contentadminoperacionbd1{
+	display:block;
+}
+input#hideadminoperacionbd1:checked ~ div#contentadminoperacionbd1 {
+	display:none;
+}
+
+#showadminseguridad1,#hideadminseguridad1 {
+	display:none;
+}
+div#contentadminseguridad1{
+	display:none;
+  padding:10px;
+  width:100%;
+}
+input#showadminseguridad1:checked ~ div#contentadminseguridad1 {
+	display:block;
+}
+input#hideadminseguridad1:checked ~ div#contentadminseguridad1{
+	display:none;
+}
+
+#showadminplataformas1,#hideadminplataformas1 {
+	display:none;
+}
+div#contentadminplataformas1{
+	display:none;
+  padding:10px;
+  width:100%;
+}
+input#showadminplataformas1:checked ~ div#contentadminplataformas1{
+	display:block;
+}
+input#hideadminplataformas1:checked ~ div#contentadminplataformas1{
+	display:none;
+}
+
+#showgestionenergetica1,#hidegestionenergetica1 {
+	display:none;
+}
+div#contentgestionenergetica1{
+	display:none;
+  padding:10px;
+  width:100%;
+}
+input#showgestionenergetica1:checked ~ div#contentgestionenergetica1 {
+	display:block;
+}
+input#hidegestionenergetica1:checked ~ div#contentgestionenergetica1{
+	display:none;
+}
+
+#showareadesarrollopro1,#hideareadesarrollopro1 {
+	display:none;
+}
+div#contentareadesarrollopro1{
+	display:none;
+  padding:10px;
+  width:100%;
+}
+input#showareadesarrollopro1:checked ~ div#contentareadesarrollopro1{
+	display:block;
+}
+input#hideareadesarrollopro1:checked ~ div#contentareadesarrollopro1{
+	display:none;
+}
+
+#showdesarrolloappsmantenimiento1,#hidedesarrolloappsmantenimiento1 {
+	display:none;
+}
+div#contentdesarrolloappsmantenimiento1{
+	display:none;
+  padding:10px;
+  width:100%;
+}
+input#showdesarrolloappsmantenimiento1:checked ~ div#contentdesarrolloappsmantenimiento1{
+	display:block;
+}
+input#hidedesarrolloappsmantenimiento1:checked ~ div#contentdesarrolloappsmantenimiento1{
+	display:none;
+}
+
+#showdesarrolloprotecnologocicos1,#hidedesarrolloprotecnologocicos1{
+	display:none;
+}
+div#contentdesarrolloprotecnologocicos1 {
+	display:none;
+  padding:10px;
+  width:100%;
+}
+input#showdesarrolloprotecnologocicos1:checked ~ div#contentdesarrolloprotecnologocicos1 {
+	display:block;
+}
+input#hidedesarrolloprotecnologocicos1:checked ~ div#contentdesarrolloprotecnologocicos1{
+	display:none;
+}
+
+#showpruebascalidad1,#hidepruebascalidad1 {
+	display:none;
+}
+div#contentpruebascalidad1 {
+	display:none;
+  padding:10px;
+  width:100%;
+}
+input#showpruebascalidad1:checked ~ div#contentpruebascalidad1 {
+	display:block;
+}
+input#hidepruebascalidad1:checked ~ div#contentpruebascalidad1{
+	display:none;
+}
+
+#showareasoporteusuario1,#hideareasoporteusuario1{
+	display:none;
+}
+div#contentareasoporteusuario1{
+	display:none;
+  padding:10px;
+  width:100%;
+}
+input#showareasoporteusuario1:checked ~ div#contentareasoporteusuario1{
+	display:block;
+}
+input#hideareasoporteusuario1:checked ~ div#contentareasoporteusuario1{
+	display:none;
+}
+
+#showsoporteusuarios1,#hidesoporteusuarios1 {
+	display:none;
+}
+div#contentsoporteusuarios1 {
+	display:none;
+  padding:10px;
+  width:100%;
+}
+input#showsoporteusuarios1:checked ~ div#contentsoporteusuarios1{
+	display:block;
+}
+input#hidesoporteusuarios1:checked ~ div#contentsoporteusuarios1{
+	display:none;
+}
+
+#showdespliegueserviciotecnologicos1,#hidedespliegueserviciotecnologicos1 {
+	display:none;
+}
+div#contentdespliegueserviciotecnologicos1 {
+	display:none;
+  padding:10px;
+  width:100%;
+}
+input#showdespliegueserviciotecnologicos1:checked ~ div#contentdespliegueserviciotecnologicos1{
+	display:block;
+}
+input#hidedespliegueserviciotecnologicos1:checked ~ div#contentdespliegueserviciotecnologicos1{
+	display:none;
+}
+
+#showgestiontecnica1,#hidegestiontecnica1{
+	display:none;
+}
+div#contentgestiontecnica1{
+	display:none;
+  padding:10px;
+  width:100%;
+}
+input#showgestiontecnica1:checked ~ div#contentgestiontecnica1{
+	display:block;
+}
+input#hidegestiontecnica1:checked ~ div#contentgestiontecnica1{
+	display:none;
 }
