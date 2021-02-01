@@ -15,11 +15,23 @@
 	<header class="full-width NavBarP">
 		<div class="full-width NavBarP-Logo"><img src="logo2.jpeg" ></div>
 		<nav class="full-width NavBarP-Nav">
-			<ul class="full-width list-unstyled">
+			<ul class="nav">
 				<li><a href="index.html">Inicio</a></li>
 				<li><a href="sesionusuario.html">Planificación</a></li>
-				<li><a href="organizacion.html">Organización</a></li>
-				<li><a href="integracion.html">Integración</a></li>
+				<li><a href="">Organización</a>
+					<ul>
+						<li><a href="organizacion.html">Estructura Organizativa</a></li>
+						<li><a href="areati.html">Áreas y funciones del departamento de TI</a></li>
+						<li><a href="perfilesti.html">Perfiles de puestos de las áreas del departamento de TI</a></li>
+					</ul>
+				</li>
+				<li><a href="">Integración</a>
+					<ul>
+						<li><a href="reclutamiento.html">Reclutamiento</a></li>
+						<li><a href="adquisicionhard.html">Adquisición de Hardware-Software</a></li>
+					</ul>
+				</li>
+				<li><a href="control.html">Control</a></li>
 			</ul>
 		</nav>
 		<i class="fa fa-bars visible-xs btn-menuMobile ShowMenuMobile" aria-hidden="true"></i>
@@ -78,587 +90,46 @@
 			</div>      
 	</div>
 	<div class="organizacion">
-				<h1>Áreas y funciones del departamento de TI</h1>
-			</div>
-			<div class="organizacion">
-					<label for="showdireccion">
-						<span class="titulo">1.1 Dirección</span>
-					</label>
-					<input type="radio" id="showdireccion" name="group">			
-					<input type="radio" id="hidedireccion" name="group">
-					<div id="contentdireccion">
-							<label for="hidedireccion">
-									<span class="cerrar">Cerrar</span>
-								</label>
-						<img src="assets/img/direccion.png">
-					</div>      
-			</div>
-			<div class="organizacion">
-					<label for="showgestioinfortec">
-						<span class="titulo">1.1.1 Gestión de la Información y Riesgo Tecnológico</span>
-					</label>
-					<input type="radio" id="showgestioinfortec" name="group">			
-					<input type="radio" id="hidegestioinfortec" name="group">
-					<div id="contentgestioinfortec">
-							<label for="hidegestioinfortec">
-									<span class="cerrar">Cerrar</span>
-								</label>
-						<img src="assets/img/gestioninformacion.png">
-					</div>      
-			</div>
-			<div class="organizacion">
-					<label for="showsecretatia">
-						<span class="titulo">1.1.2 Secretaría</span>
-					</label>
-					<input type="radio" id="showsecretatia" name="group">			
-					<input type="radio" id="hidesecretatia" name="group">
-					<div id="contentsecretatia">
-							<label for="hidesecretatia">
-									<span class="cerrar">Cerrar</span>
-								</label>
-						<img src="assets/img/secretaria.png">
-					</div>      
-			</div>
-			<div class="organizacion">
-					<label for="showserviciosgenerales">
-						<span class="titulo">1.1.3 Servicios Generales</span>
-					</label>
-					<input type="radio" id="showserviciosgenerales" name="group">			
-					<input type="radio" id="hideserviciosgenerales" name="group">
-					<div id="contentserviciosgenerales">
-							<label for="hideserviciosgenerales">
-									<span class="cerrar">Cerrar</span>
-								</label>
-						<img src="assets/img/serviciogenerales.png">
-					</div>      
-			</div>
-			<div class="organizacion">
-					<label for="showareainfraestructura">
-						<span class="titulo">1.2 Área de Infraestructura Tecnológica y operaciones</span>
-					</label>
-					<input type="radio" id="showareainfraestructura" name="group">
-					<input type="radio" id="hideareainfraestructura" name="group">
-					<div id="contentareainfraestructura">
-							<label for="hideareainfraestructura">
-									<span class="cerrar">Cerrar</span>
-								</label>
-						<img src="assets/img/areainfraestructura.png">
-					</div>      
-			</div>
-			<div class="organizacion">
-					<label for="showadministracionredes">
-						<span class="titulo">1.2.1 Administración de Redes y Telecomunicaciones</span>
-					</label>
-					<input type="radio" id="showadministracionredes" name="group">			
-					<input type="radio" id="hideadministracionredes" name="group">
-					<div id="contentadministracionredes">
-							<label for="hideadministracionredes">
-									<span class="cerrar">Cerrar</span>
-								</label>
-						<img src="assets/img/administracionredes.png">
-					</div>      
-			</div>
-			<div class="organizacion">
-					<label for="showadministracionservidores">
-						<span class="titulo">1.2.2 Administración de Servidores</span>
-					</label>
-					<input type="radio" id="showadministracionservidores" name="group">			
-					<input type="radio" id="hideadministracionservidores" name="group">
-					<div id="contentadministracionservidores">
-							<label for="hideadministracionservidores">
-									<span class="cerrar">Cerrar</span>
-								</label>
-						<img src="assets/img/administracionservidores.png">
-					</div>      
-			</div>
-			<div class="organizacion">
-					<label for="showadminoperacionbd">
-						<span class="titulo">1.2.3 Administración de Operaciones y DBA</span>
-					</label>
-					<input type="radio" id="showadminoperacionbd" name="group">
-					<input type="radio" id="hideadminoperacionbd" name="group">
-					<div id="contentadminoperacionbd">
-							<label for="hideadminoperacionbd">
-									<span class="cerrar">Cerrar</span>
-								</label>
-						<img src="assets/img/adminoperacionbd.png">
-					</div>      
-			</div>
-			<div class="organizacion">
-					<label for="showadminseguridad">
-						<span class="titulo">1.2.4 Administración de Seguridad Informática</span>
-					</label>
-					<input type="radio" id="showadminseguridad" name="group">
-					<input type="radio" id="hideadminseguridad" name="group">
-					<div id="contentadminseguridad">
-							<label for="hideadminseguridad">
-									<span class="cerrar">Cerrar</span>
-								</label>
-						<img src="assets/img/adminseguridad.png">
-					</div>      
-			</div>
-			<div class="organizacion">
-					<label for="showadminplataformas">
-						<span class="titulo">1.2.5 Administración de Plataformas y Servicios Tecnológicos</span>
-					</label>
-					<input type="radio" id="showadminplataformas" name="group">
-					<input type="radio" id="hideadminplataformas" name="group">
-					<div id="contentadminplataformas">
-							<label for="hideadminplataformas">
-									<span class="cerrar">Cerrar</span>
-								</label>
-						<img src="assets/img/adminplataformas.png">
-					</div>      
-			</div>
-			<div class="organizacion">
-					<label for="showgestionenergetica">
-						<span class="titulo">1.2.6 Gestión Energética</span>
-					</label>
-					<input type="radio" id="showgestionenergetica" name="group">
-					<input type="radio" id="hidegestionenergetica" name="group">
-					<div id="contentgestionenergetica">
-							<label for="hidegestionenergetica">
-									<span class="cerrar">Cerrar</span>
-								</label>
-						<img src="assets/img/gestionenergetica.png">
-					</div>      
-			</div>
-			<div class="organizacion">
-					<label for="showareadesarrollopro">
-						<span class="titulo">1.3 Área de Desarrollo y Proyectos Tecnológicos</span>
-					</label>
-					<input type="radio" id="showareadesarrollopro" name="group">
-					<input type="radio" id="hideareadesarrollopro" name="group">
-					<div id="contentareadesarrollopro">
-							<label for="hideareadesarrollopro">
-									<span class="cerrar">Cerrar</span>
-								</label>
-						<img src="assets/img/areadesarrollopro.png">
-					</div>      
-			</div>
-			<div class="organizacion">
-					<label for="showdesarrolloappsmantenimiento">
-						<span class="titulo">1.3.1 Desarrollo y Mantenimiento de Aplicaciones</span>
-					</label>
-					<input type="radio" id="showdesarrolloappsmantenimiento" name="group">
-					<input type="radio" id="hidedesarrolloappsmantenimiento" name="group">
-					<div id="contentdesarrolloappsmantenimiento">
-							<label for="hidedesarrolloappsmantenimiento">
-									<span class="cerrar">Cerrar</span>
-								</label>
-						<img src="assets/img/desarrolloappsmantenimiento.png">
-					</div>      
-			</div>
-			<div class="organizacion">
-					<label for="showdesarrolloprotecnologocicos">
-						<span class="titulo">1.3.2 Desarrollo de Proyectos Tecnológicos</span>
-					</label>
-					<input type="radio" id="showdesarrolloprotecnologocicos" name="group">
-					<input type="radio" id="hidedesarrolloprotecnologocicos" name="group">
-					<div id="contentdesarrolloprotecnologocicos">
-							<label for="hidedesarrolloprotecnologocicos">
-									<span class="cerrar">Cerrar</span>
-								</label>
-						<img src="assets/img/desarrolloprotecnologocicos.png">
-					</div>      
-			</div>
-			<div class="organizacion">
-					<label for="showpruebascalidad">
-						<span class="titulo">1.3.3 Pruebas y Aseguramiento de la Calidad</span>
-					</label>
-					<input type="radio" id="showpruebascalidad" name="group">
-					<input type="radio" id="hidepruebascalidad" name="group">
-					<div id="contentpruebascalidad">
-							<label for="hidepruebascalidad">
-									<span class="cerrar">Cerrar</span>
-								</label>
-						<img src="assets/img/pruebascalidad.png">
-					</div>      
-			</div>
-			<div class="organizacion">
-					<label for="showareasoporteusuario">
-						<span class="titulo">1.4 Área de Soporte a Usuarios y Mantenimiento Técnico</span>
-					</label>
-					<input type="radio" id="showareasoporteusuario" name="group">
-					<input type="radio" id="hideareasoporteusuario" name="group">
-					<div id="contentareasoporteusuario">
-							<label for="hideareasoporteusuario">
-									<span class="cerrar">Cerrar</span>
-								</label>
-						<img src="assets/img/areasoporteusuario.png">
-					</div>      
-			</div>
-			<div class="organizacion">
-					<label for="showsoporteusuarios">
-						<span class="titulo">1.4.1 Soporte a Usuarios</span>
-					</label>
-					<input type="radio" id="showsoporteusuarios" name="group">
-					<input type="radio" id="hidesoporteusuarios" name="group">
-					<div id="contentsoporteusuarios">
-							<label for="hidesoporteusuarios">
-									<span class="cerrar">Cerrar</span>
-								</label>
-						<img src="assets/img/soporteusuarios.png">
-					</div>      
-			</div>
-			<div class="organizacion">
-					<label for="showdespliegueserviciotecnologicos">
-						<span class="titulo">1.4.2 Despliegue de Servicios Tecnológicos</span>
-					</label>
-					<input type="radio" id="showdespliegueserviciotecnologicos" name="group">
-					<input type="radio" id="hidedespliegueserviciotecnologicos" name="group">
-					<div id="contentdespliegueserviciotecnologicos">
-							<label for="hidedespliegueserviciotecnologicos">
-									<span class="cerrar">Cerrar</span>
-								</label>
-						<img src="assets/img/despliegueserviciotecnologicos.png">
-					</div>      
-			</div>
-			<div class="organizacion">
-					<label for="showgestiontecnica">
-						<span class="titulo">1.4.3 Gestión Técnica y Mantenimiento de Equipos</span>
-					</label>
-					<input type="radio" id="showgestiontecnica" name="group">
-					<input type="radio" id="hidegestiontecnica" name="group">
-					<div id="contentgestiontecnica">
-							<label for="hidegestiontecnica">
-									<span class="cerrar">Cerrar</span>
-								</label>
-						<img src="assets/img/gestiontecnica.png">
-					</div>      
-			</div>
-			<div class="organizacion">
-					
-						<h1>Perfiles de puestos de las áreas del departamento de TI</h1>
-					</div>
-					<div class="organizacion">
-							
-							<label for="show1">
-								<span class="titulo">1.1 Dirección</span>
-							</label>
-							<input type="radio" id="show1" name="group">			
-							<input type="radio" id="hide1" name="group">
-							<div id="content1">
-									<label for="hide1">
-											<span class="cerrar">Cerrar</span>
-										</label>
-								<img src="assets/img/direccioperfil.png">
-							</div>      
-							
-					</div>
-					<div class="organizacion">
-						
-							<label for="showgestioinfortec1">
-								<span class="titulo">1.1.1 Gestión de la Información y Riesgo Tecnológico</span>
-							</label>
-							<input type="radio" id="showgestioinfortec1" name="group">			
-							<input type="radio" id="hidegestioinfortec1" name="group">
-							<div id="contentgestioinfortec1">
-									<label for="hidegestioinfortec1">
-											<span class="cerrar">Cerrar</span>
-										</label>
-								<img src="assets/img/gestioinformacioperfil.png">
-							</div>      
-						
-					</div>
-					<div class="organizacion">
-							
-							<label for="showsecretatia1">
-								<span class="titulo">1.1.2 Secretaría</span>
-							</label>
-							<input type="radio" id="showsecretatia1" name="group">			
-							<input type="radio" id="hidesecretatia1" name="group">
-							<div id="contentsecretatia1">
-									<label for="hidesecretatia1">
-											<span class="cerrar">Cerrar</span>
-										</label>
-								<img src="assets/img/secretariaperfil.png">
-							</div>      
-							
-					</div>
-					<div class="organizacion">
-							
-							<label for="showserviciosgenerales1">
-								<span class="titulo">1.1.3 Servicios Generales</span>
-							</label>
-							<input type="radio" id="showserviciosgenerales1" name="group">			
-							<input type="radio" id="hideserviciosgenerales1" name="group">
-							<div id="contentserviciosgenerales1">
-									<label for="hideserviciosgenerales1">
-											<span class="cerrar">Cerrar</span>
-										</label>
-								<img src="assets/img/serviciosgeneralesperfil.png">
-							</div>      
-							
-					</div>
-					<div class="organizacion">
-							
-							<label for="showareainfraestructura1">
-								<span class="titulo">1.2 Área de Infraestructura Tecnológica y operaciones</span>
-							</label>
-							<input type="radio" id="showareainfraestructura1" name="group">
-							<input type="radio" id="hideareainfraestructura1" name="group">
-							<div id="contentareainfraestructura1">
-									<label for="hideareainfraestructura1">
-											<span class="cerrar">Cerrar</span>
-										</label>
-								<img src="assets/img/areainfraestructuraperfil.png">
-							</div>      
-							
-					</div>
-					<div class="organizacion">
-							
-							<label for="showadministracionredes1">
-								<span class="titulo">1.2.1 Administración de Redes y Telecomunicaciones</span>
-							</label>
-							<input type="radio" id="showadministracionredes1" name="group">			
-							<input type="radio" id="hideadministracionredes1" name="group">
-							<div id="contentadministracionredes1">
-									<label for="hideadministracionredes1">
-											<span class="cerrar">Cerrar</span>
-										</label>
-								<img src="assets/img/adminredesperfil.png">
-							</div>      
-							
-					</div>
-					<div class="organizacion">
-							
-							<label for="showadministracionservidores1">
-								<span class="titulo">1.2.2 Administración de Servidores</span>
-							</label>
-							<input type="radio" id="showadministracionservidores1" name="group">			
-							<input type="radio" id="hideadministracionservidores1" name="group">
-							<div id="contentadministracionservidores1">
-									<label for="hideadministracionservidores1">
-											<span class="cerrar">Cerrar</span>
-										</label>
-								<img src="assets/img/adminservidoresperfil.png">
-							</div>      
-							
-					</div>
-					<div class="organizacion">
-							
-							<label for="showadminoperacionbd1">
-								<span class="titulo">1.2.3 Administración de Operaciones y DBA</span>
-							</label>
-							<input type="radio" id="showadminoperacionbd1" name="group">
-							<input type="radio" id="hideadminoperacionbd1" name="group">
-							<div id="contentadminoperacionbd1">
-									<label for="hideadminoperacionbd1">
-											<span class="cerrar">Cerrar</span>
-										</label>
-								<img src="assets/img/adminbd.png">
-							</div>      
-							
-					</div>
-					<div class="organizacion">
-							
-							<label for="showadminseguridad1">
-								<span class="titulo">1.2.4 Administración de Seguridad Informática</span>
-							</label>
-							<input type="radio" id="showadminseguridad1" name="group">
-							<input type="radio" id="hideadminseguridad1" name="group">
-							<div id="contentadminseguridad1">
-									<label for="hideadminseguridad1">
-											<span class="cerrar">Cerrar</span>
-										</label>
-								<img src="assets/img/adminseguridadperfil.png">
-							</div>      
-							
-					</div>
-					<div class="organizacion">
-							
-							<label for="showadminplataformas1">
-								<span class="titulo">1.2.5 Administración de Plataformas y Servicios Tecnológicos</span>
-							</label>
-							<input type="radio" id="showadminplataformas1" name="group">
-							<input type="radio" id="hideadminplataformas1" name="group">
-							<div id="contentadminplataformas1">
-									<label for="hideadminplataformas1">
-											<span class="cerrar">Cerrar</span>
-										</label>
-								<img src="assets/img/adminplataformasperfil.png">
-							</div>      
-							
-					</div>
-					<div class="organizacion">
-						
-							<label for="showgestionenergetica1">
-								<span class="titulo">1.2.6 Gestión Energética</span>
-							</label>
-							<input type="radio" id="showgestionenergetica1" name="group">
-							<input type="radio" id="hidegestionenergetica1" name="group">
-							<div id="contentgestionenergetica1">
-									<label for="hidegestionenergetica1">
-											<span class="cerrar">Cerrar</span>
-										</label>
-								<img src="assets/img/gestionenergeticaperfil.png">
-							</div>      
-							
-					</div>
-					<div class="organizacion">
-							
-							<label for="showareadesarrollopro1">
-								<span class="titulo">1.3 Área de Desarrollo y Proyectos Tecnológicos</span>
-							</label>
-							<input type="radio" id="showareadesarrollopro1" name="group">
-							<input type="radio" id="hideareadesarrollopro1" name="group">
-							<div id="contentareadesarrollopro1">
-									<label for="hideareadesarrollopro1">
-											<span class="cerrar">Cerrar</span>
-										</label>
-								<img src="assets/img/areadedesarrolloperfil.png">
-							</div>      
-						
-					</div>
-					<div class="organizacion">
-							
-							<label for="showdesarrolloappsmantenimiento1">
-								<span class="titulo">1.3.1 Desarrollo y Mantenimiento de Aplicaciones</span>
-							</label>
-							<input type="radio" id="showdesarrolloappsmantenimiento1" name="group">
-							<input type="radio" id="hidedesarrolloappsmantenimiento1" name="group">
-							<div id="contentdesarrolloappsmantenimiento1">
-									<label for="hidedesarrolloappsmantenimiento1">
-											<span class="cerrar">Cerrar</span>
-										</label>
-								<img src="assets/img/areadesarrollomanteimientoperfil.png">
-							</div>      
-							
-					</div>
-					<div class="organizacion">
-						
-							<label for="showdesarrolloprotecnologocicos1">
-								<span class="titulo">1.3.2 Desarrollo de Proyectos Tecnológicos</span>
-							</label>
-							<input type="radio" id="showdesarrolloprotecnologocicos1" name="group">
-							<input type="radio" id="hidedesarrolloprotecnologocicos1" name="group">
-							<div id="contentdesarrolloprotecnologocicos1">
-									<label for="hidedesarrolloprotecnologocicos1">
-											<span class="cerrar">Cerrar</span>
-										</label>
-								<img src="assets/img/desarrollotecologicosperfil.png">
-							</div>      
-							
-					</div>
-					<div class="organizacion">
-						
-							<label for="showpruebascalidad1">
-								<span class="titulo">1.3.3 Pruebas y Aseguramiento de la Calidad</span>
-							</label>
-							<input type="radio" id="showpruebascalidad1" name="group">
-							<input type="radio" id="hidepruebascalidad1" name="group">
-							<div id="contentpruebascalidad1">
-									<label for="hidepruebascalidad1">
-											<span class="cerrar">Cerrar</span>
-										</label>
-								<img src="assets/img/pruebasdecalidadperfil.png">
-							</div>      
-							
-					</div>
-					<div class="organizacion">
-							
-							<label for="showareasoporteusuario1">
-								<span class="titulo">1.4 Área de Soporte a Usuarios y Mantenimiento Técnico</span>
-							</label>
-							<input type="radio" id="showareasoporteusuario1" name="group">
-							<input type="radio" id="hideareasoporteusuario1" name="group">
-							<div id="contentareasoporteusuario1">
-									<label for="hideareasoporteusuario1">
-											<span class="cerrar">Cerrar</span>
-										</label>
-								<img src="assets/img/areasoporteusuariosperfil.png">
-							</div>      
-						
-					</div>
-					<div class="organizacion">
-							
-							<label for="showsoporteusuarios1">
-								<span class="titulo">1.4.1 Soporte a Usuarios</span>
-							</label>
-							<input type="radio" id="showsoporteusuarios1" name="group">
-							<input type="radio" id="hidesoporteusuarios1" name="group">
-							<div id="contentsoporteusuarios1">
-									<label for="hidesoporteusuarios1">
-											<span class="cerrar">Cerrar</span>
-										</label>
-								<img src="assets/img/soporteusuariosperfil.png">
-							</div>      
-						
-					</div>
-					<div class="organizacion">
-							
-							<label for="showdespliegueserviciotecnologicos1">
-								<span class="titulo">1.4.2 Despliegue de Servicios Tecnológicos</span>
-							</label>
-							<input type="radio" id="showdespliegueserviciotecnologicos1" name="group">
-							<input type="radio" id="hidedespliegueserviciotecnologicos1" name="group">
-							<div id="contentdespliegueserviciotecnologicos1">
-									<label for="hidedespliegueserviciotecnologicos1">
-											<span class="cerrar">Cerrar</span>
-										</label>
-								<img src="assets/img/desplieguedeservicioperfil.png">
-							</div>      
-							
-					</div>
-					<div class="organizacion">
-							
-							<label for="showgestiontecnica1">
-								<span class="titulo">1.4.3 Gestión Técnica y Mantenimiento de Equipos</span>
-							</label>
-							<input type="radio" id="showgestiontecnica1" name="group">
-							<input type="radio" id="hidegestiontecnica1" name="group">
-							<div id="contentgestiontecnica1">
-									<label for="hidegestiontecnica1">
-											<span class="cerrar">Cerrar</span>
-										</label>
-								<img src="assets/img/gestiontecnicaymantenimientoperfil.png">
-							</div>      
-							
-					</div>
-	<div class="organizacion">
 		<hr>
 		<h3>Descargar Archivos Adjuntos</h3>
 	    <hr>		
 	</div>
     <div class="archivo">
-			<a href="assets/docs/TA2-ORGANIZACION (2).pdf" target="_blank">-Estructura Organizativa</a>
-			<a href="assets/docs/TA3-FUNCIONES.pdf" target="_blank">-Áreas y funciones del departamento de TI</a>
-			<a href="assets/docs/TA4-PERFIL-PUESTOS.pdf" target="_blank">-Perfiles de puestos de las áreas del departamento de TI</a>
+			<a href="assets/docs/TA2-ORGANIZACION (2).pdf" target="_blank">Estructura Organizativa</a>
     </div>
-    <footer class="footer-distributed">
+	<footer class="footer-distributed">
 
-			<div class="footer-left">
-          		<img src="logo2.png">
+		<div class="footer-left">
+			  <img src="logo2.png">
+		</div>
+
+		<div class="footer-center">
+			<div>
+				<i class="fa fa-map-marker"></i>
+				  <p><span>Calle 104 - Av 37,
+					  Sector,La Universitaria</span>
+					Manta, Manabí</p>
 			</div>
 
-			<div class="footer-center">
-				<div>
-					<i class="fa fa-map-marker"></i>
-					  <p><span>Calle 104 - Av 37,
-						  Sector,La Universitaria</span>
-						Manta, Manabí</p>
-				</div>
-
-				<div>
-					<i class="fa fa-phone"></i>
-					<p>+593 987 654 321</p>
-				</div>
-				<div>
-					<i class="fa fa-envelope"></i>
-					<p><a>universidad.publica.manta@gmail.com</a></p>
-				</div>
+			<div>
+				<i class="fa fa-phone"></i>
+				<p>+593 987 654 321</p>
 			</div>
-			<div class="footer-right">
-				<p class="footer-company-about">
-					<span>Universidad Pública de Manta</span>
-					No pierdas la oportunidad de ser parte de esta familia.</p><br>
-				<div class="footer-company-about">
-					<p>- Mejores atenciones en estudiantes.</p>
-					<p>- Equipos de calidad.</p>
-					<p>- Docentes preparados.</p>
-				</div>
+			<div>
+				<i class="fa fa-envelope"></i>
+				<p><a>universidad.publica.manta@gmail.com</a></p>
 			</div>
-	</footer>
+		</div>
+		<div class="footer-right">
+			<p class="footer-company-about">
+				<span>Universidad Pública de Manta</span>
+				Autores.</p><br>
+			<div class="footer-company-about">
+				<p>- Alcívar Aguirre Juan José</p>
+				<p>- Bustos Intriago Ricardo Antonio.</p>
+				<p>- Lopéz Anchundia Yandri Alexander.</p>
+			</div>
+		</div>
+</footer>
 </body>
 </html>

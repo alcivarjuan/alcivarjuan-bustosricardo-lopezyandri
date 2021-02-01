@@ -65,22 +65,16 @@ html, body{
 .NavBarP,
 .NavBarP-Logo,
 .NavBarP-Nav,
-.NavBarP-Nav > ul,
-.NavBarP-Nav > ul > li,
-.NavBarP-Nav > ul > li > a{
-	height: 50px;
-	line-height: 50px;
-}
 .NavBarP{
 	font-family: 'Cormorant Garamond';
 	font-size: 17px;
-	padding-bottom: 100px;
+	padding-bottom: 150px;
 }
 .NavBarP-Logo,
 .NavBarP-Nav{
 	position: absolute;
 	top: 0px;
-	background-color: #fff; 
+	
 }
 .NavBarP-Logo{
 	left: 0;
@@ -96,14 +90,8 @@ html, body{
 	position: static;
 }
 .NavBarP-Nav{
-	right: 0;
-	width: 60%;
-	padding-right: 20%;
-	padding-top: 30px;
-}
-.NavBarP-Nav > ul{
-	text-align: right;
-	padding-right: 10px;
+	padding-left: 35%;
+	padding-top: 20px;
 }
 .NavBarP-Nav > ul > li{
 	display: inline-block;
@@ -111,46 +99,11 @@ html, body{
 	border-right: 1px solid rgba(0, 0, 0, 0.1);
 	padding-right: 3px;
 }
-.NavBarP-Nav > ul > li > a{
-	color: #000;
-	text-align: center;
-	display: block;
-	text-decoration: none;
-	padding: 0 7px;
-	transition: all .3s ease-in-out;
-	opacity: 0.6;
-}
-.NavBarP-Nav > ul > li > a:hover{
-	color: rgba(73,155,234,1);
-	opacity: 1;
-}
-/*====== Login ==*/
-.Login{
-	right: 0;
-	z-index: 77;
-	background: #fff;
-	color: #141414;
-	text-transform: none;
-	line-height: normal;
-	padding: 7px;
-	text-align: left;
-	font-size: 14px;
-	transition: all .3s ease-in-out;
-	opacity: 0;
-	pointer-events: none;
-}
-.Login a{
-	text-decoration: none;
-	line-height: auto;
-	text-align: center;
-	display: block;
-	color:#fff;
-}
-
 .banner{
+	padding-bottom: 40px;
 	position: relative;
 	width: 100%;
-	height: 90%;
+	height: 70%;
 	background-size: cover;
 	background-position: center;
 	transition: all .1s ease-out;
@@ -322,9 +275,6 @@ html, body{
     	text-align: center;
     	height: 100%;
     }
-    .NavBarP-Nav > ul > li{
-		display: block;
-    }
     .btn-menuMobile{
     	position: absolute;
     	z-index: 100;
@@ -401,3 +351,43 @@ html, body{
 		margin-right: -2px;
 	}
 }
+ul, ol {
+	list-style:none;
+  }
+  
+  .nav > li {
+	float:left;
+  }
+  
+  .nav li a {
+	background-color:rgba(0, 0, 0, 0.1);
+	color:#000;
+	text-decoration:none;
+	padding:10px 20px;
+	display:block;
+  }
+  
+  .nav li a:hover {
+	background-color:#d6d1d1;
+  }
+  
+  .nav li ul {
+	padding-top: 3px;
+	display:none;
+	position:absolute;
+	min-width:420px;
+	text-align: left;
+  }
+  
+  .nav li:hover > ul {
+	display:block;
+  }
+  
+  .nav li ul li {
+	position:relative;
+  }
+  
+  .nav li ul li ul {
+	right:-140px;
+	top:0px;
+  }
