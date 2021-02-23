@@ -169,19 +169,19 @@ label > input {
     color: #000;
     font-family: 'Laila' serif;
 }
-#showm,#hidem {
+#show,#hide {
 	display:none;
 }
-div#contentm {
+div#content {
 	display:none;
   padding:10px;
   width:100%;
   
 }
-input#showm:checked ~ div#contentm {
+input#show:checked ~ div#content {
 	display:block;
 }
-input#hidem:checked ~ div#contentm {
+input#hide:checked ~ div#content {
 	display:none;
 }
 .titulo{
@@ -214,6 +214,20 @@ input#showvision:checked ~ div#contentvision {
 	display:block;
 }
 input#hidevision:checked ~ div#contentvision {
+	display:none;
+}
+#showvision1,#hidevision1 {
+	display:none;
+}
+div#contentvision1 {
+	display:none;
+  padding:10px;
+  width:100%;
+}
+input#showvision1:checked ~ div#contentvision1 {
+	display:block;
+}
+input#hidevision1:checked ~ div#contentvision1 {
 	display:none;
 }
 #showobjeestrategicos,#hideobjeestrategicos {
